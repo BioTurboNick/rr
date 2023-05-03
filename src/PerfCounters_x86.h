@@ -82,6 +82,13 @@ static CpuMicroarch compute_cpu_microarch() {
     case 0x90670:
     case 0x906a0:
       return IntelAlderlake;
+<<<<<<< HEAD
+=======
+    case 0xb0670:
+      return IntelRaptorlake;
+    case 0x806f0:
+      return IntelSapphireRapid;
+>>>>>>> 0ed8132... support for Intel SapphireRapid
     case 0x30f00:
       return AMDF15R30;
     case 0x00f10: // Naples, Whitehaven, Summit Ridge, Snowy Owl (Zen), Milan (Zen 3) (UNTESTED)
